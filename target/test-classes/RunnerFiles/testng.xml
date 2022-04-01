@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Testing">	
+<test name="Firstname testing" allow-return-values="true"> 
+	
+<classes> 			
+<class name="RunnerFile.TestNgRunnerFile" /> 	
+	
+</classes> 
+	</test> 	
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Firstname testing(failed)">
+    <classes>
+      <class name="RunnerFile.TestNgRunnerFile">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- RunnerFile.TestNgRunnerFile -->
+    </classes>
+  </test> <!-- Firstname testing(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->
