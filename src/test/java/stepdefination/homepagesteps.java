@@ -31,7 +31,7 @@ public static SoftAssertions soft= new SoftAssertions();
 	    System.out.println(title);
 	    
 	   try {
-	Assert.assertEquals("Online Shopping Canada: Everyday Low Prices at Walmar.ca!", driver.getTitle());
+	Assert.assertEquals("Online Shopping Canada: Everyday Low Prices at Walmart.ca!", driver.getTitle());
 	   }
 	   catch(Throwable e) {
 		  	   

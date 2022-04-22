@@ -1,36 +1,36 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "5e6a4b58-b34a-48f9-83b2-8a575d51f24d",
+    "id": "ac4da0d8-8f91-4986-b6a8-1087a3a972d3",
     "feature": "checking login feature of application",
     "scenario": "login in to application by entering url",
-    "start": 1648773117818,
-    "group": 14,
+    "start": 1650659653584,
+    "group": 15,
     "content": "",
     "tags": "@login,",
-    "end": 1648773135363,
+    "end": 1650659667864,
     "className": "passed"
   },
   {
-    "id": "3146e52a-12da-4b6f-9892-8e2ad765b4cb",
+    "id": "941d0596-f1f0-4832-b2ab-a22945509cfc",
     "feature": "Verifying homepage",
     "scenario": "verifying login page of walmart",
-    "start": 1648773117818,
-    "group": 15,
+    "start": 1650659653586,
+    "group": 16,
     "content": "",
     "tags": "@homepage,",
-    "end": 1648773132473,
-    "className": "failed"
+    "end": 1650659668353,
+    "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 14,
-    "content": "Thread[TestNG-PoolService-0,5,main]"
+    "id": 15,
+    "content": "Thread[pool-2-thread-1,5,main]"
   },
   {
-    "id": 15,
-    "content": "Thread[TestNG-PoolService-1,5,main]"
+    "id": 16,
+    "content": "Thread[pool-2-thread-2,5,main]"
   }
 ]);
 });
