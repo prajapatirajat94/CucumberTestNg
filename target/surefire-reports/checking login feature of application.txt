@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: checking login feature of application
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.538 s - in checking login feature of application
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.406 s - in checking login feature of application

@@ -2,6 +2,8 @@ package Applicationhook;
 
 
 
+import java.util.Properties;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,11 +17,14 @@ import io.cucumber.java.Scenario;
 public class Apphook {
 private WebDriver driver;
 public BasePage basepage;
+public Properties prop;
 
 @Before()
 public void setup() {
 	basepage = new BasePage();
-	driver =basepage.init_driver();
+	prop=basepage.init_Properties();
+	System.out.println("--------*****----Initializing Properties ----*****------------");
+	driver =basepage.init_driver(prop);
 	System.out.println("*-----------------------Browser starting-----------------------*");
 }
 	
