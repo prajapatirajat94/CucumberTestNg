@@ -3,6 +3,8 @@ package stepdefination;
 
 
 
+import java.util.Properties;
+
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -14,12 +16,17 @@ import io.cucumber.java.en.When;
 
 public class homepagesteps {
 public static WebDriver driver;
+public BasePage basepage;
+public Properties prop;
 public static SoftAssertions soft= new SoftAssertions();
 
 	@Given("user is on loginpage by using url {string}")
 	public void user_is_on_loginpage_by_using_url(String url) {
-		 
-		  driver = BasePage.getDriver();
+		
+		 basepage = new BasePage();
+		prop = basepage.init_Properties();
+		driver = basepage.init_driver(prop);
+		 // driver = BasePage.getDriver();
 		    driver.get(url);
 	}
 

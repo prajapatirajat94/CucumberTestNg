@@ -1,0 +1,6 @@
+Migration from 6.x to 7.x, make sure you are using all distribution of 7.x only.
+
+cucumber-java
+cucumber-testng
+cucumber-picocontainer
+extentreports-cucumber7-adapter

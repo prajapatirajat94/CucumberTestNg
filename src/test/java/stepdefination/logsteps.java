@@ -58,6 +58,7 @@ public class logsteps  {
 	    System.out.println(lp.titlestring());
 	    extent.log(Status.PASS, "Title is Correct");
 	    extent.addScreenCaptureFromPath(lp.TakingScreenShot());
+	   
 	    
 	    System.out.println("------******--------"+driver.getTitle()+"------******--------");
 	    report.flush();
@@ -88,6 +89,7 @@ public class logsteps  {
 	@After
 	public void ClosingReport() {
 		report.flush();
+		
 	}
 
 }

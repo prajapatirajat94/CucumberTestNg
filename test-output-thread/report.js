@@ -1,14 +1,25 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "066d2cd1-fd8e-48da-9ecb-f65c335ecf06",
+    "id": "f2adfb49-f447-4b43-9f13-21db4549621c",
+    "feature": "Verifying homepage",
+    "scenario": "verifying login page of walmart",
+    "start": 1703383497461,
+    "group": 1,
+    "content": "",
+    "tags": "@homepage,",
+    "end": 1703383512981,
+    "className": "passed"
+  },
+  {
+    "id": "91109614-7ddf-440f-aebd-3a4c9f652fdb",
     "feature": "checking login feature of application",
     "scenario": "login in to application by entering url",
-    "start": 1667755574301,
+    "start": 1703383487504,
     "group": 1,
     "content": "",
     "tags": "@login,",
-    "end": 1667755587001,
+    "end": 1703383497442,
     "className": "passed"
   }
 ]);
